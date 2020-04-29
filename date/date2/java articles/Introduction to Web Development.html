@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head >
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<!--BEGIN FIRSTIMPRESSION TAG -->
+<script data-cfasync='false' type='text/javascript'>
+	window.apd_options = { 'websiteId': 5996, 'runFromFrame': false };
+	(function() {
+		var w = window.apd_options.runFromFrame ? window.top : window;
+		if(window.apd_options.runFromFrame && w!=window.parent) w=window.parent;
+		if (w.location.hash.indexOf('apdAdmin') != -1){if(typeof(Storage) !== 'undefined') {w.localStorage.apdAdmin = 1;}}
+		var adminMode = ((typeof(Storage) == 'undefined') || (w.localStorage.apdAdmin == 1));
+		w.apd_options=window.apd_options;
+		var apd = w.document.createElement('script'); apd.type = 'text/javascript'; apd.async = true;
+		apd.src = '//' + (adminMode ? 'cdn' : 'ecdn') + '.firstimpression.io/' + (adminMode ? 'fi.js?id=' + window.apd_options.websiteId : 'fi_client.js') ;
+		var s = w.document.getElementsByTagName('head')[0]; s.appendChild(apd);
+	})();</script>
+<!-- END FIRSTIMPRESSION TAG --><title>Introduction to Web Development</title>
+<link rel='dns-prefetch' href='//static.apester.com' />
+<link rel='dns-prefetch' href='//fonts.googleapis.com' />
+<link rel='dns-prefetch' href='//s.w.org' />
+<link rel="alternate" type="application/rss+xml" title="Code Conquest &raquo; Feed" href="https://www.codeconquest.com/feed/" />
+<link rel="alternate" type="application/rss+xml" title="Code Conquest &raquo; Comments Feed" href="https://www.codeconquest.com/comments/feed/" />
+<link rel="canonical" href="https://www.codeconquest.com/what-is-coding/web-programming/" />
+		<script type="text/javascript">
+			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/12.0.0-1\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.codeconquest.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.3.2"}};
+			!function(e,a,t){var r,n,o,i,p=a.createElement("canvas"),s=p.getContext&&p.getContext("2d");function c(e,t){var a=String.fromCharCode;s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,e),0,0);var r=p.toDataURL();return s.clearRect(0,0,p.width,p.height),s.fillText(a.apply(this,t),0,0),r===p.toDataURL()}function l(e){if(!s||!s.fillText)return!1;switch(s.textBaseline="top",s.font="600 32px Arial",e){case"flag":return!c([127987,65039,8205,9895,65039],[127987,65039,8203,9895,65039])&&(!c([55356,56826,55356,56819],[55356,56826,8203,55356,56819])&&!c([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]));case"emoji":return!c([55357,56424,55356,57342,8205,55358,56605,8205,55357,56424,55356,57340],[55357,56424,55356,57342,8203,55358,56605,8203,55357,56424,55356,57340])}return!1}function d(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(i=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},o=0;o<i.length;o++)t.supports[i[o]]=l(i[o]),t.supports.everything=t.supports.everything&&t.supports[i[o]],"flag"!==i[o]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[i[o]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(r=t.source||{}).concatemoji?d(r.concatemoji):r.wpemoji&&r.twemoji&&(d(r.twemoji),d(r.wpemoji)))}(window,document,window._wpemojiSettings);
+		</script>
+		<style type="text/css">
+img.wp-smiley,
+img.emoji {
+	display: inline !important;
+	border: none !important;
+	box-shadow: none !important;
+	height: 1em !important;
+	width: 1em !important;
+	margin: 0 .07em !important;
+	vertical-align: -0.1em !important;
+	background: none !important;
+	padding: 0 !important;
+}
+</style>
+	<link rel='stylesheet' id='genesis-custom-css'  href='https://www.codeconquest.com/wp-content/themes/genesis-custom/style.css?ver=2.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wp-block-library-css'  href='https://www.codeconquest.com/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='quads-style-css-css'  href='https://www.codeconquest.com/wp-content/plugins/quick-adsense-reloaded/includes/gutenberg/dist/blocks.style.build.css?ver=1.8.15' type='text/css' media='all' />
+<link rel='stylesheet' id='pdf2post-css-css'  href='https://www.codeconquest.com/wp-content/plugins/pdf2post/css/pdf2post.css?ver=5.3.2' type='text/css' media='all' />
+<link rel='stylesheet' id='ssb-front-css-css'  href='https://www.codeconquest.com/wp-content/plugins/simple-social-buttons/assets/css/front.css?ver=3.1.1' type='text/css' media='all' />
+<link rel='stylesheet' id='wpProQuiz_front_style-css'  href='https://www.codeconquest.com/wp-content/plugins/wp-pro-quiz/css/wpProQuiz_front.min.css?ver=0.37' type='text/css' media='all' />
+<link rel='stylesheet' id='google-font-lato-css'  href='//fonts.googleapis.com/css?family=Lato%3A700&#038;ver=2.0.1' type='text/css' media='all' />
+<link rel='stylesheet' id='custom_menu_style-css'  href='https://www.codeconquest.com/wp-content/plugins/custom-menu/css/style.css?ver=5.3.2' type='text/css' media='all' />
+<script type='text/javascript'>
+/* <![CDATA[ */
+var configuration = {"rendererBaseUrl":"https:\/\/renderer.apester.com"};
+/* ]]> */
+</script>
+<script type='text/javascript' async="async" src='https://static.apester.com/js/sdk/latest/apester-javascript-sdk.min.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://www.codeconquest.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+<script type='text/javascript' src='https://www.codeconquest.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
+<script type='text/javascript' src='https://www.codeconquest.com/wp-content/plugins/simple-social-buttons/assets/js/front.js?ver=3.1.1'></script>
+<link rel='https://api.w.org/' href='https://www.codeconquest.com/wp-json/' />
+<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.codeconquest.com/xmlrpc.php?rsd" />
+<link rel="alternate" type="application/json+oembed" href="https://www.codeconquest.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.codeconquest.com%2Fwhat-is-coding%2Fweb-programming%2F" />
+<link rel="alternate" type="text/xml+oembed" href="https://www.codeconquest.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.codeconquest.com%2Fwhat-is-coding%2Fweb-programming%2F&#038;format=xml" />
+<style type="text/css"> .enews .screenread {
+	height: 1px;
+    left: -1000em;
+    overflow: hidden;
+    position: absolute;
+    top: -1000em;
+    width: 1px; } </style> <style media="screen">
+
+		 /*inline margin*/
+		.simplesocialbuttons.simplesocialbuttons_inline.simplesocial-sm-round button{
+	  margin: ;
+	}
+	
+	
+	
+	
+	
+	
+			 /*margin-digbar*/
+
+	
+	
+	
+	
+	
+	
+	
+</style>
+
+<!-- Open Graph Meta Tags generated by Simple Social Buttons 3.1.1 -->
+<meta property="og:title" content="Introduction to Web Development - Code Conquest" />
+<meta property="og:description" content="Beginner Series: What Is Coding?Benefits of Learning to CodeHow Coding WorksCommon Coding LanguagesThe Best Place To Start CodingIntroduction To Web DevelopmentIntroduction To Web DesignIntroduction To App DevelopmentWeb programming, also known as web development, is the creation of dynamic web applications. Examples of web applications are social networking sites like Facebook or e-commerce sites like Amazon.
+
+The good news is that learning" />
+<meta property="og:url" content="https://www.codeconquest.com/what-is-coding/web-programming/" />
+<meta property="og:site_name" content="Code Conquest" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:description" content="Beginner Series: What Is Coding?Benefits of Learning to CodeHow Coding WorksCommon Coding LanguagesThe Best Place To Start CodingIntroduction To Web DevelopmentIntroduction To Web DesignIntroduction To App DevelopmentWeb programming, also known as web development, is the creation of dynamic web applications. Examples of web applications are social networking sites like Facebook or e-commerce sites like Amazon.
+
+The good news is that learning" />
+<meta name="twitter:title" content="Introduction to Web Development - Code Conquest" />
+<link rel="icon" href="https://www.codeconquest.com/wp-content/themes/genesis-custom/images/favicon.ico" />
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-44932929-5', 'auto');
+  ga('send', 'pageview');
+
+</script>
+<!-- 77fca16b-7674-4d2f-8194-1f0e853bedad -->
+<script>(function() {
+  var _fbq = window._fbq || (window._fbq = []);
+  if (!_fbq.loaded) {
+    var fbds = document.createElement('script');
+    fbds.async = true;
+    fbds.src = '//connect.facebook.net/en_US/fbds.js';
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(fbds, s);
+    _fbq.loaded = true;
+  }
+  _fbq.push(['addPixelId', '310961065725289']);
+})();
+window._fbq = window._fbq || [];
+window._fbq.push(['track', 'PixelInitialized', {}]);
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=310961065725289&amp;ev=PixelInitialized" /></noscript>
+<link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet"><style type="text/css">.site-title a { background: url(https://www.codeconquest.com/wp-content/uploads/cropped-white-bg-e1465227667693.jpg) no-repeat !important; }</style>
+<script async type="text/javascript" src="https://cdn.thisiswaldo.com/static/js/745.js"></script>
+<script async='async' src='https://www.googletagservices.com/tag/js/gpt.js'></script>
+<script>
+  var googletag = googletag || {};
+  googletag.cmd = googletag.cmd || [];
+</script>
+
+<script>
+  googletag.cmd.push(function() {
+    var slot1=googletag.defineSlot('/39591002/CC_NATIVE_BODY', [550, 340], 'div-gpt-ad-1524747783460-0').addService(googletag.pubads());
+    googletag.pubads().enableSingleRequest();
+    googletag.enableServices();
+setInterval(function(){googletag.pubads().refresh([slot1]);}, 90000);
+   });
+</script>
+</head>
+<body class="page-template-default page page-id-79 page-child parent-pageid-54 custom-header header-image header-full-width content-sidebar genesis-breadcrumbs-visible genesis-footer-widgets-visible" itemscope itemtype="https://schema.org/WebPage"><div class="site-container"><header class="site-header" itemscope itemtype="https://schema.org/WPHeader"><div class="wrap"><div class="title-area"><p class="site-title" itemprop="headline"><a href="https://www.codeconquest.com/">Code Conquest</a></p></div></div></header><nav class="nav-primary" aria-label="Main" itemscope itemtype="https://schema.org/SiteNavigationElement"><div class="wrap"><ul id="menu-nav" class="menu genesis-nav-menu menu-primary"><li id="menu-item-401" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-401"><a href="https://www.codeconquest.com/" itemprop="url"><span itemprop="name">Home</span></a></li>
+<li id="menu-item-404" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-404"><a href="https://www.codeconquest.com/what-is-coding/" itemprop="url"><span itemprop="name">What is Coding?</span></a></li>
+<li id="menu-item-405" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-405"><a href="https://www.codeconquest.com/tutorials/" itemprop="url"><span itemprop="name">Tutorials</span></a></li>
+<li id="menu-item-403" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-403"><a href="https://www.codeconquest.com/training/" itemprop="url"><span itemprop="name">Training</span></a></li>
+<li id="menu-item-400" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-400"><a href="https://www.codeconquest.com/reviews/" itemprop="url"><span itemprop="name">Reviews</span></a></li>
+<li id="menu-item-402" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-402"><a href="https://www.codeconquest.com/knowledge-center/" itemprop="url"><span itemprop="name">Knowledge Center</span></a></li>
+<li id="menu-item-9301" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9301"><a href="https://www.codeconquest.com/versus/" itemprop="url"><span itemprop="name">Versus</span></a></li>
+<li id="menu-item-624" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-624"><a href="https://www.codeconquest.com/blog/" itemprop="url"><span itemprop="name">Blog</span></a></li>
+</ul></div></nav><div align="center"><script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- CC - Top Responsive -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-8625616776911349"
+     data-ad-slot="9832628115"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script></div><div class="site-inner"><div class="content-sidebar-wrap"><main class="content"><div class="breadcrumb" itemprop="breadcrumb" itemscope itemtype="https://schema.org/BreadcrumbList">You are here: <span class="breadcrumb-link-wrap" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a class="breadcrumb-link" href="https://www.codeconquest.com/" itemprop="item"><span class="breadcrumb-link-text-wrap" itemprop="name">Home</span></a><meta itemprop="position" content="1"></span> <span aria-label="breadcrumb separator">/</span> <span class="breadcrumb-link-wrap" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem"><a class="breadcrumb-link" href="https://www.codeconquest.com/what-is-coding/" itemprop="item"><span class="breadcrumb-link-text-wrap" itemprop="name">What is Coding?</span></a><meta itemprop="position" content="2"></span> <span aria-label="breadcrumb separator">/</span> Introduction to Web Development</div><article class="post-79 page type-page status-publish entry" itemscope itemtype="https://schema.org/CreativeWork"><header class="entry-header"><h1 class="entry-title" itemprop="headline">Introduction to Web Development</h1>
+</header><div class="banner-widget widget-area"><div class="post-image"><section id="text-5" class="widget widget_text"><div class="widget-wrap">			<div class="textwidget"></div>
+		</div></section>
+</div></div><div class="entry-content" itemprop="text"><div class="simplesocialbuttons simplesocial-sm-round simplesocialbuttons_inline simplesocialbuttons-align-left post-79 page  simplesocialbuttons-inline-no-animation">
+<button class="simplesocial-fb-share" target="_blank" data-href="https://www.facebook.com/sharer/sharer.php?u=https://www.codeconquest.com/what-is-coding/web-programming/" onclick="javascript:window.open(this.dataset.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><span class="simplesocialtxt">Facebook </span> </button>
+<button class="simplesocial-twt-share" data-href="https://twitter.com/share?text=Introduction+to+Web+Development&url=https://www.codeconquest.com/what-is-coding/web-programming/" rel="nofollow" onclick="javascript:window.open(this.dataset.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><span class="simplesocialtxt">Twitter</span> </button>
+<button target="popup" class="simplesocial-linkedin-share" data-href="https://www.linkedin.com/cws/share?url=https://www.codeconquest.com/what-is-coding/web-programming/" onclick="javascript:window.open(this.dataset.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><span class="simplesocialtxt">LinkedIn</span></button>
+</div>
+<div class="toc" id="toc"><strong>Beginner Series: What Is Coding?</strong></p>
+<ol>
+<li><a href="https://www.codeconquest.com/what-is-coding/benefits/">Benefits of Learning to Code</a></li>
+<li><a href="https://www.codeconquest.com/what-is-coding/how-does-coding-work/">How Coding Works</a></li>
+<li><a href="https://www.codeconquest.com/what-is-coding/common-programming-languages/">Common Coding Languages</a></li>
+<li><a href="https://www.codeconquest.com/what-is-coding/where-to-start/">The Best Place To Start Coding</a></li>
+<li><a href="https://www.codeconquest.com/what-is-coding/web-programming/">Introduction To Web Development</a></li>
+<li><a href="https://www.codeconquest.com/what-is-coding/web-design/">Introduction To Web Design</a></li>
+<li><a href="https://www.codeconquest.com/what-is-coding/mobile-programming/">Introduction To App Development</a></li>
+</ol>
+</div>
+<p>Web programming, also known as web development, is the creation of dynamic web applications. Examples of web applications are social networking sites like Facebook or e-commerce sites like Amazon.</p>
+<p>The good news is that learning web development is not that hard!</p>
+<p>In fact, many argue it&#8217;s the <a href="https://www.codeconquest.com/what-is-coding/where-to-start/">best form of coding</a> for beginners to learn. It&#8217;s easy to set up, you get instant results and there&#8217;s plenty of online training available.</p>
+<p>A lot of people learn web coding because they want to create the next Facebook or find a job in the industry. But it’s also a good choice if you just want a general introduction to coding, since it’s super easy to get started. No matter whether you’re looking for a career or just want to learn coding, learning how to develop for the web is for you. It’s one of the smartest decisions you will ever make!</p><!-- code from sekindo - Codeconquest - Codeconquest.com NVU -->
+
+<script type="text/javascript" language="javascript" src="https://live.sekindo.com/live/liveView.php?s=94362&cbuster=[CACHE_BUSTER]&pubUrl=[PAGE_URL_ENCODED]&altSize=600,320,410,291&x=600&y=410&vp_content=plembed8c0imjzksvxo&vp_template=3111"></script>
+
+<!-- code from sekindo -->
+<h2>Web Development Overview</h2>
+<p>There are two broad divisions of web development – front-end development (also called client-side development) and back-end development (also called server-side development).</p>
+<p>Front-end development refers to constructing what a user sees when they load a web application – the content, design and how you interact with it. This is done with three codes – HTML, CSS and JavaScript.</p>
+<p>HTML, short for <a href="https://www.codeconquest.com/tutorials/html/">Hyper Text Markup Language</a>, is a special code for ‘marking up’ text in order to turn it into a web page. Every web page on the net is written in HTML, and it will form the backbone of any web application. CSS, short for <a href="https://www.codeconquest.com/tutorials/css/">Cascading Style Sheets</a>, is a code for setting style rules for the appearance of web pages. CSS handles the cosmetic side of the web. Finally, <a href="https://www.codeconquest.com/tutorials/javascript/">JavaScript</a> is a scripting language that’s widely used to add functionality and interactivity to web pages.</p>
+<p>Back-end development controls what goes on behind the scenes of a web application. A back-end often uses a database to generate the front-end.</p>
+<section class="short d">
+<p>Here’s an example. Say you log into your Facebook account, and you are greeted with the latest updates in your News Feed. They’re not going to be the same updates that you saw yesterday.</p>
+<p>How did the page change? Did a Facebook employee manually edit the page to update your news feed? Of course not. A script on the Facebook back-end would have received the updates and re-generated the front-end accordingly.</p>
+</section>
+<p>Back-end scripts are written in many different coding languages and frameworks, such as…</p>
+<ul>
+<li><a href="https://www.codeconquest.com/tutorials/php/">PHP</a></li>
+<li><a href="https://www.codeconquest.com/training/ruby/">Ruby on Rails</a></li>
+<li>ASP.NET</li>
+<li>Perl</li>
+<li><a href="https://www.codeconquest.com/training/java/">Java</a></li>
+<li>Node.js</li>
+<li><a href="https://www.codeconquest.com/training/python/">Python</a></li>
+</ul>
+<p>Without going into more detail, that’s really all there is to web development. So now, here are the best ways to start learning it.</p>
+<h2>Ways to Learn Web Development</h2>
+<p>The traditional way to learn web development is to enroll in a university or trade school course. However, it can be costly – and what’s more, the web evolves so fast that schools often can’t keep up!</p>
+<p>Luckily, there&#8217;s plenty of good quality coding training available here on the Internet. What better place to learn web development than the web itself?</p>
+<p>A particular training recommendation is <a href="https://www.codeconquest.com/reviews/treehouse/">Treehouse</a>. This is because it has a focus on web development, is recommended by many of the world&#8217;s most trusted and recognized web developers (such as <a href="http://css-tricks.com">Chris Coyier</a>) and most of its teachers are themselves web developers.</p>
+<h2>Teach It To Yourself</h2>
+<p>You could also learn web coding by researching it on your own, tweaking website templates and inspecting the source code of other websites. A lot of coders learn HTML and CSS this way, using website editing software to tweak a website template and figuring out the code.</p>
+<p>However, this method is not ideal. It takes a very long time, and you don&#8217;t even know what there is to learn. It’s like having to first find the pieces of a jigsaw puzzle before you can assemble them. You&#8217;re better off with training like Treehouse.</p>
+<p>Another bonus of Treehouse is that it teaches you not only how to build your website, but also how to design your website &#8211; something which is explored <a href="https://www.codeconquest.com/what-is-coding/web-design/">on the next page</a>.</p>
+<div class="simplesocialbuttons simplesocial-sm-round simplesocialbuttons_inline simplesocialbuttons-align-left post-79 page  simplesocialbuttons-inline-no-animation">
+<button class="simplesocial-fb-share" target="_blank" data-href="https://www.facebook.com/sharer/sharer.php?u=https://www.codeconquest.com/what-is-coding/web-programming/" onclick="javascript:window.open(this.dataset.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><span class="simplesocialtxt">Facebook </span> </button>
+<button class="simplesocial-twt-share" data-href="https://twitter.com/share?text=Introduction+to+Web+Development&url=https://www.codeconquest.com/what-is-coding/web-programming/" rel="nofollow" onclick="javascript:window.open(this.dataset.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><span class="simplesocialtxt">Twitter</span> </button>
+<button target="popup" class="simplesocial-linkedin-share" data-href="https://www.linkedin.com/cws/share?url=https://www.codeconquest.com/what-is-coding/web-programming/" onclick="javascript:window.open(this.dataset.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;"><span class="simplesocialtxt">LinkedIn</span></button>
+</div>
+
+<section class="a">
+<h2>Recommended Training – Treehouse</h2><p>
+<a href="https://www.codeconquest.com/clicks.php?aid=53"><img class="alignright" alt="Treehouse" src="https://www.codeconquest.com/wp-content/uploads/Treehouse.png" /></a>Although this site recommends various training services, our top recommendation is <a href="https://www.codeconquest.com/clicks.php?aid=54">Treehouse</a>.
+</p><p>
+<a href="https://www.codeconquest.com/clicks.php?aid=54">Treehouse</a> is an online training service that teaches web design, web development and app development with videos, quizzes and interactive coding exercises.
+</p><p>
+Treehouse's mission is to bring technology education to those who can't get it, and is committed to helping its students find jobs. If you're looking to turn coding into your career, you should consider Treehouse.
+</p><p>
+<a href="https://www.codeconquest.com/reviews/treehouse/">Read our full review of Treehouse…</a>
+</p>
+</section>
+<br><br>
+<p class="disclosure"><u>Disclosure of Material Connection</u>: Some of the links in the post above are “affiliate links.” This means if you click on the link and purchase the item, I will receive an affiliate commission. Regardless, I only recommend products or services I use personally and believe will add value to my readers.</p> </div></article></main><aside class="sidebar sidebar-primary widget-area" role="complementary" aria-label="Primary Sidebar" itemscope itemtype="https://schema.org/WPSideBar"><section id="search-2" class="widget widget_search"><div class="widget-wrap"><form class="search-form" method="get" action="https://www.codeconquest.com/" role="search" itemprop="potentialAction" itemscope itemtype="https://schema.org/SearchAction"><input class="search-form-input" type="search" name="s" id="searchform-1" placeholder="Search this website" itemprop="query-input"><input class="search-form-submit" type="submit" value="Search"><meta content="https://www.codeconquest.com/?s={s}" itemprop="target"></form></div></section>
+<section id="text-6" class="widget widget_text"><div class="widget-wrap">			<div class="textwidget"><div id="waldo-tag-746"></div></div>
+		</div></section>
+<section id="nav_menu-4" class="widget widget_nav_menu"><div class="widget-wrap"><h4 class="widget-title widgettitle">Popular Series</h4>
+<div class="menu-popular-series-container"><ul id="menu-popular-series" class="menu"><li id="menu-item-8045" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-8045"><a href="https://www.codeconquest.com/what-is-coding/" itemprop="url">What is Coding?</a></li>
+<li id="menu-item-8047" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8047"><a href="https://www.codeconquest.com/website/" itemprop="url">How to Make Your First Website</a></li>
+<li id="menu-item-8048" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8048"><a href="https://www.codeconquest.com/hex-color-codes/" itemprop="url">Understanding Hex Color Codes</a></li>
+<li id="menu-item-8049" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8049"><a href="https://www.codeconquest.com/programmer-6-months/" itemprop="url">How to Become a Coder in 6 Months: a Step-by-Step Action Plan</a></li>
+<li id="menu-item-8050" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8050"><a href="https://www.codeconquest.com/programming-projects/" itemprop="url">How to Start a Coding Project</a></li>
+</ul></div></div></section>
+<section id="enews-ext-2" class="widget enews-widget"><div class="widget-wrap"><div class="enews"><h4 class="widget-title widgettitle">Get Our Newsletter</h4>
+<p>Enter your email address and we'll notify you whenever we add something new to the site.</p>
+			<form id="subscribeenews-ext-2" action="https://codeconquest.us8.list-manage.com/subscribe/post?u=7a8977e3bb5068a281cadb3c4&amp;id=5afe4955e8" method="post"
+																			target="_blank" onsubmit="if ( subbox1.value == 'First Name') { subbox1.value = ''; } if ( subbox2.value == 'Last Name') { subbox2.value = ''; }" name="enews-ext-2">
+				<label for="subbox1" class="screenread">First Name</label><input type="text" id="subbox1" class="enews-subbox" value="" placeholder="First Name" name="FNAME" />								<label for="subbox" class="screenread">Email Address</label><input type="email" value="" id="subbox" placeholder="Email Address" name="EMAIL"
+																														required="required" />
+								<input type="submit" value="Notify Me!" id="subbutton" />
+			</form>
+		</div></div></section>
+<section id="text-3" class="widget widget_text"><div class="widget-wrap">			<div class="textwidget"><div id="waldo-tag-747"></div></div>
+		</div></section>
+<section id="nav_menu-2" class="widget widget_nav_menu"><div class="widget-wrap"><h4 class="widget-title widgettitle">Popular Blog Posts</h4>
+<div class="menu-popular-blog-posts-container"><ul id="menu-popular-blog-posts" class="menu"><li id="menu-item-8052" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-8052"><a href="https://www.codeconquest.com/blog/the-50-best-websites-to-learn-python/" itemprop="url">The 50 Best Websites to Learn Python</a></li>
+<li id="menu-item-8054" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-8054"><a href="https://www.codeconquest.com/blog/top-50-websites-to-learn-javascript/" itemprop="url">The 50 Best Websites to Learn JavaScript</a></li>
+<li id="menu-item-8055" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-8055"><a href="https://www.codeconquest.com/blog/top-50-websites-to-learn-php/" itemprop="url">The 50 Best Websites to Learn PHP</a></li>
+<li id="menu-item-8051" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-8051"><a href="https://www.codeconquest.com/blog/want-to-switch-careers-coding-may-be-the-perfect-solution/" itemprop="url">Want to Switch Careers? Coding May Be the Perfect Solution!</a></li>
+<li id="menu-item-8053" class="menu-item menu-item-type-post_type menu-item-object-post menu-item-8053"><a href="https://www.codeconquest.com/blog/9-of-the-hottest-tech-skills-hiring-managers-look-for-on-linkedin/" itemprop="url">9 of the Hottest Tech Skills Hiring Managers Look for on LinkedIn</a></li>
+</ul></div></div></section>
+<section id="text-12" class="widget widget_text"><div class="widget-wrap">			<div class="textwidget"><div id="waldo-tag-748"></div></div>
+		</div></section>
+		<section id="recent-posts-2" class="widget widget_recent_entries"><div class="widget-wrap">		<h4 class="widget-title widgettitle">Latest Blog Posts</h4>
+		<ul>
+											<li>
+					<a href="https://www.codeconquest.com/blog/25-javascript-project-ideas/">25 Javascript Project Ideas</a>
+									</li>
+											<li>
+					<a href="https://www.codeconquest.com/blog/15-popular-javascript-libraries-and-frameworks/">15 Popular Javascript Libraries and Frameworks</a>
+									</li>
+											<li>
+					<a href="https://www.codeconquest.com/blog/introducing-our-new-versus-section/">Introducing our new Versus(Vs) section!</a>
+									</li>
+											<li>
+					<a href="https://www.codeconquest.com/blog/do-frameworks-make-lazy-programmers/">Do Frameworks Make Lazy Programmers?</a>
+									</li>
+											<li>
+					<a href="https://www.codeconquest.com/blog/get-featured-on-codeconquest/">Your Story Could Be Featured on CodeConquest.com!</a>
+									</li>
+					</ul>
+		</div></section>
+</aside></div><div id="waldo-tag-749" align="center" style="padding-bottom:10px;"></div></div><div class="footer-widgets"><div class="wrap"><div class="widget-area footer-widgets-1 footer-widget-area"><section id="text-9" class="widget widget_text"><div class="widget-wrap">			<div class="textwidget"><div id="waldo-tag-752"></div></div>
+		</div></section>
+</div><div class="widget-area footer-widgets-2 footer-widget-area"><section id="nav_menu-3" class="widget widget_nav_menu"><div class="widget-wrap"><h4 class="widget-title widgettitle">Explore Code Conquest</h4>
+<div class="menu-explore-code-conquest-container"><ul id="menu-explore-code-conquest" class="menu"><li id="menu-item-411" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-411"><a href="https://www.codeconquest.com/what-is-coding/" itemprop="url">What is Coding?</a></li>
+<li id="menu-item-407" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-407"><a href="https://www.codeconquest.com/tutorials/" itemprop="url">Free Code Tutorials</a></li>
+<li id="menu-item-409" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-409"><a href="https://www.codeconquest.com/training/" itemprop="url">Coding Training Recommendations</a></li>
+<li id="menu-item-408" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-408"><a href="https://www.codeconquest.com/reviews/" itemprop="url">Coding Training Reviews</a></li>
+<li id="menu-item-410" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-410"><a href="https://www.codeconquest.com/knowledge-center/" itemprop="url">Knowledge Center</a></li>
+<li id="menu-item-1967" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1967"><a href="https://www.codeconquest.com/cheat-sheets/" itemprop="url">Cheat Sheets</a></li>
+<li id="menu-item-1825" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1825"><a href="https://www.codeconquest.com/coding-quizzes/" itemprop="url">Coding Quizzes</a></li>
+<li id="menu-item-9302" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-9302"><a href="https://www.codeconquest.com/versus/" itemprop="url">Versus</a></li>
+</ul></div></div></section>
+</div><div class="widget-area footer-widgets-3 footer-widget-area"><section id="text-8" class="widget widget_text"><div class="widget-wrap"><h4 class="widget-title widgettitle">Deals, Discounts and Coupons</h4>
+			<div class="textwidget"><a href="/deals/">Deals</a></div>
+		</div></section>
+<section id="nav_menu-9" class="widget widget_nav_menu"><div class="widget-wrap"><h4 class="widget-title widgettitle">Code Conquest</h4>
+<div class="menu-code-conquest-footer-container"><ul id="menu-code-conquest-footer" class="menu"><li id="menu-item-8039" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-8039"><a href="https://www.codeconquest.com" itemprop="url">Home</a></li>
+<li id="menu-item-8038" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8038"><a href="https://www.codeconquest.com/about/" itemprop="url">About</a></li>
+<li id="menu-item-8040" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8040"><a href="https://www.codeconquest.com/privacy-policy/" itemprop="url">Privacy Policy</a></li>
+<li id="menu-item-8041" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8041"><a href="https://www.codeconquest.com/contact/" itemprop="url">Contact Us</a></li>
+<li id="menu-item-8044" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8044"><a href="https://www.codeconquest.com/terms-of-use/" itemprop="url">Terms of Use</a></li>
+<li id="menu-item-8042" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8042"><a href="https://www.codeconquest.com/write-for-us/" itemprop="url">Write for Us</a></li>
+<li id="menu-item-8043" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-8043"><a href="https://www.codeconquest.com/featured-review/" itemprop="url">Featured Review</a></li>
+</ul></div></div></section>
+</div></div></div><footer class="site-footer" itemscope itemtype="https://schema.org/WPFooter"><div class="wrap"><p>Copyright &copy; 2020 <a href="https://www.codeconquest.com/">Code Conquest</a> &middot; <a href="https://www.codeconquest.com/about/">About</a> &middot; <a href="https://www.codeconquest.com/terms-of-use/">Terms</a> &middot; <a href="https://www.codeconquest.com/privacy-policy/">Privacy</a> &middot; <a href="https://www.codeconquest.com/contact/">Contact Us</a> &middot; <a href="https://www.codeconquest.com/write-for-us/">Write For Us</a></p> </div></footer></div><script>
+  (function (w,i,d,g,e,t,s) {w[d] = w[d]||[];t= i.createElement(g);
+    t.async=1;t.src=e;s=i.getElementsByTagName(g)[0];s.parentNode.insertBefore(t, s);
+  })(window, document, '_gscq','script','//widgets.getsitecontrol.com/54447/script.js');
+</script><script type='text/javascript'>
+/* <![CDATA[ */
+var countVars = {"disqusShortname":"codeconquest"};
+/* ]]> */
+</script>
+<script type='text/javascript' src='https://www.codeconquest.com/wp-content/plugins/disqus-comment-system/public/js/comment_count.js?ver=3.0.17'></script>
+<script type='text/javascript' src='https://www.codeconquest.com/wp-content/plugins/custom-menu/js/script.js?ver=5.3.2'></script>
+<script type='text/javascript' src='https://www.codeconquest.com/wp-includes/js/wp-embed.min.js?ver=5.3.2'></script>
+<script type='text/javascript'>function initTwitCount(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://static1.twitcount.com/js/twitcount.js';fjs.parentNode.insertBefore(js,fjs)}}
+        var ssb_twit_count_init=!1;addEventListener('mouseover',function(event){if(!ssb_twit_count_init){initTwitCount(document,'script','twitcount_plugins')
+        ssb_twit_count_init=!0}})</script></body>
+</html>
